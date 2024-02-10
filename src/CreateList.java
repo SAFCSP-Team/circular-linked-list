@@ -26,9 +26,4 @@ public class CreateList {
                tail = newNode; 
                }
             }
- 
-            public void delete(){
-               head = head.next;
-   
-                }
    }
