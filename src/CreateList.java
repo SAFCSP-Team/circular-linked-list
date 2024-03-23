@@ -10,7 +10,7 @@ public class CreateList {
         } else{
             newNode.next = head;
             head = newNode;
-            tail = newNode;
+            tail.next = head;
         }
     }
 
